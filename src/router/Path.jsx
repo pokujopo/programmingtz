@@ -21,11 +21,11 @@ const repoName = import.meta.env.VITE_REPO_NAME || "";
         },
         {
           path: "/post_project",
-          element: <Post_project><Post_project />,
+          element: <Post_project></Post_project>,
         },
         {
           path: "/project",
-          element: <Project />,
+          element: <Project></Project>,
         },
         
         
