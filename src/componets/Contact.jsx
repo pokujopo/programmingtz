@@ -19,7 +19,7 @@ return(
     <div id="section4" className="flex p-4 lg:flex-row flex-col-reverse justify-between items-center gap-4
 min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
           <div className="w-full max-w-6xl mx-auto px-4">
-        <div data-aos="fade-right" className=" h-auto p-3 flex flex-col gap-2  items-center lg:items-start justify-start w-auto lg:w-[600px]">
+        <div data-aos="fade-right" className=" h-auto p-3 flex flex-col gap-5 items-center lg:items-start justify-start w-auto lg:w-[600px]">
            <h1 className="text-2xl p-2 font-semibold text-center uppercase">My Contact:</h1>
            <div className=" gap-5 p-5 flex flex-col h-auto w-auto">
              
