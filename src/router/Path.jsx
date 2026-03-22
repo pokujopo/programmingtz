@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 //import Home from '../pages/Home.jsx'
-import Post_project from '../pages/Post_project.jsx';
-import Project_page from "../pages/Project_page";
+//import Post_project from '../pages/Post_project.jsx';
+//import Project_page from "../pages/Project_page";
 import { lazy, Suspense } from "react";
 const Home = lazy(() => import("../pages/Home"));
 const Layout = lazy(() => import("../layout/Layout"));
