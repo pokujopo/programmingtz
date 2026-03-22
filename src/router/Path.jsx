@@ -35,5 +35,5 @@ const repoName = import.meta.env.VITE_REPO_NAME || "";
  //   { path: `/post_project`, element: (<Post_project />) },
  //   { path: `/project`, element: (<Project_page />)}
   ],  
-  { basename: `/${repoName}` }
+  { basename: "/" }
 )
