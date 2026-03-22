@@ -20,7 +20,7 @@ function Project(){
     
    useEffect(
          ()=>{
-            fetch("https://jboycreator56.ct.ws/api/get_project")
+            fetch("https://abbuherbalist.page.gd/search?query=a")
             .then(res => res.json())
             .then(data => {
                 console.log(data.all_project);
