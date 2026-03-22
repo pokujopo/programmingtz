@@ -21,7 +21,7 @@ function Introduction(){
         <div id='section1' className=" relative flex lg:flex-row justify-between
          text-[#ACC8A2] text-2xl  items-center  
 
-        min-h-screen w-full  sm:flex-col flex-col  bg-[#1A2517]  " >
+        min-h-screen w-full  sm:flex-col flex-col gap-3  bg-[#1A2517]  " >
             <div className="w-full max-w-6xl mx-auto px-4">
             <div className=" ml-7 flex flex-col items-start p-1
              text-amber-50 bold justify-center h-[500px] w-auto">
