@@ -38,7 +38,7 @@ function NavBar(){
         </div>
 
             <div className="flex flex-row justify-between items-center">
-        <a href="" className=" mr-4 hover:rounded hover:p-2 hover:bg-[#7ac067] text-[#5B0E14] p-2  rounded bg-[#33be0c]" >Welcome  <FontAwesomeIcon icon={faUser} />  </a>
+        <a href="" className=" mr-4 hover:rounded hover:p-2 hidden hover:bg-[#7ac067] text-[#5B0E14] p-2  rounded bg-[#33be0c]" >Welcome  <FontAwesomeIcon icon={faUser} />  </a>
         <a className="mr-3 text-[#5B0E14] lg:hidden hover:bg-[#7ac067]  rounded-2xl p-2 " onClick={()=>setText(!menuText)} >{menuText ?  <FontAwesomeIcon icon={faX} /> :  <FontAwesomeIcon icon={faBars} />}</a>
         </div>
             </div>
