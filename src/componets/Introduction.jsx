@@ -38,7 +38,7 @@ function Introduction(){
                 
                 </div>
             
-            <div  className=" sm:mb-[50px]   lg:mr-7  flex items-center
+            <div  className=" sm:mb-[50px] mt-8  lg:mr-7  flex items-center
              text-amber-50 rounded-3xl justify-center  
              ml-2 mr-2 shadow-amber-200  
              sm:h-[300px] lg:h-[500px] lg:w-[500px]">
