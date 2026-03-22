@@ -19,20 +19,20 @@ function Post_project(){
 
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="text">SiteName <FontAwesomeIcon icon={faWebAwesome} />:</label>
-                    <input className=" w-[400px] h-[50px] border-2 rounded-2xl p-3 mt-2 " type="text" name="name" placeholder=" write site name" />
+                    <input className=" border-2 rounded-2xl p-3 mt-2 " type="text" name="name" placeholder=" write site name" />
                 </div>
 
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="link">Link <FontAwesomeIcon icon={faLink} />:</label>
-                    <input className=" w-[400px] h-[50px] border-2 rounded-2xl p-3 mt-2 " type="link" name="link" placeholder=" paste/write site link" />
+                    <input className=" border-2 rounded-2xl p-3 mt-2 " type="link" name="link" placeholder=" paste/write site link" />
                 </div>
                 <div className="flex  flex-col">
                      <label className=" font-semibold  " htmlFor="image">Image <FontAwesomeIcon icon={faImage} />:</label>
-                    <input className=" w-[400px] h-[50px] border-2 rounded-2xl p-3 mt-2 " type="file" name="image"  />
+                    <input className="  border-2 rounded-2xl p-3 mt-2 " type="file" name="image"  />
                 </div>
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="language">Language <FontAwesomeIcon icon={faLanguage} />:</label>
-                    <select className=" w-[400px] h-[50px] border-2 rounded-2xl p-3 mt-2 " name="language" >
+                    <select className="border-2 rounded-2xl p-3 mt-2 " name="language" >
                         <option  defaultValue="">reactjs</option>
                         <option value="">flutter</option>
                     </select>
