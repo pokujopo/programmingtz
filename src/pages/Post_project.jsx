@@ -5,7 +5,7 @@ function Post_project(){
     
     return(
         <div className=" bg-[#1A2510] flex items-center justify-center w-auto lg:w-full min-h-screen">
-
+         <div className="w-full max-w-6xl mx-auto px-4">
             <div className="bg-[#1A2510] lg:rounded-3xl  lg:border-2 text-[#ACC8A2]  w-auto p-3 lg:p-7
             flex flex-col ">
 
@@ -44,6 +44,7 @@ function Post_project(){
 
                 </form>
                 </div>
+         </div>
             </div>
     )
 }
