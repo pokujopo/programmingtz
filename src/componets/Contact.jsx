@@ -19,9 +19,9 @@ return(
     <div id="section4" className="flex p-4 lg:flex-row flex-col-reverse justify-between items-center gap-4
 min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
           <div className="w-full max-w-6xl mx-auto px-4">
-        <div data-aos="fade-right" className=" h-[450px] p-3 flex flex-col gap-2  items-center lg:items-start justify-start w-auto lg:w-[600px]">
+        <div data-aos="fade-right" className=" h-auto p-3 flex flex-col gap-2  items-center lg:items-start justify-start w-auto lg:w-[600px]">
            <h1 className="text-2xl p-2 font-semibold text-center uppercase">My Contact:</h1>
-           <div className=" gap-5 p-5 flex flex-col h-[400px] w-auto">
+           <div className=" gap-5 p-5 flex flex-col h-auto w-auto">
              
              <p><FontAwesomeIcon icon={faMobilePhone} /> What'sap Number : +255786584974 </p>
              <p><FontAwesomeIcon icon={faEnvelope} /> Email: <a href="pokujopo@gamail.com">pokujopo@gamail.com</a></p>
@@ -41,7 +41,7 @@ min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
         </div>
         </div>
 
-        <div data-aos="fade-left" className=" border-emerald-200 rounded h-[450px] p-3 items-center flex-col  space-y-5 w-auto  lg:w-[600px] flex ">
+        <div data-aos="fade-left" className=" border-emerald-200 rounded h-auto items-center flex-col  space-y-5 w-auto  lg:w-[600px] flex ">
 
             <div>
                 <h1 className=" text-2xl uppercase font-semibold">send me a text</h1>
@@ -62,7 +62,7 @@ min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
             </div>
 
             <div className="">
-                <button type="submit" className="p-2 bg-[#206607] w-2xs rounded-2xl hover:bg-[#293824] text-2xl">send</button>
+                <button type="submit" className="p-2 bg-[#206607] w-auto rounded-2xl hover:bg-[#293824] text-2xl">send</button>
             </div>
 
         </div>
