@@ -11,7 +11,7 @@ function Myskills(){
   return(
     <div id="section3" className="flex justify-between p-9 
      flex-col  min-h-[80vh] items-center text-[#ACC8A2]  bg-[#273822]">
-       <div className="w-full max-w-6xl mx-auto px-4">
+       <div className="w-full max-w-6xl mx-auto flex items-center justify-center px-4">
        <div className=" flex items-center justify-center">
         <h1  data-aos="fade-right" className="text-3xl font-semibold:">MySkills</h1>
        </div>
