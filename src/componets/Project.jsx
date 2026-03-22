@@ -20,7 +20,7 @@ function Project(){
     
    useEffect(
          ()=>{
-            fetch("https://jboycreator56.ct.ws/api/get_project",{mode: "no-cors"})
+            fetch("https://jboycreator56.ct.ws/api/get_project")
             .then(res => res.json())
             .then(data => {
                 console.log(data.all_project);
