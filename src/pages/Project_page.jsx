@@ -94,7 +94,7 @@ function Project_page(){
             </div>
 
             <div className="">
-                <input data-aos="fade-right" className="p-2 w-[400px] text-[#ACC8A2] border-2 rounded-2xl border-[#ACC8A2]"
+                <input data-aos="fade-right" className="p-2 w-auto text-[#ACC8A2] border-2 rounded-2xl border-[#ACC8A2]"
                  value={query} onChange={(e)=> setQuery(e.target.value)} placeholder="search project here" type="text" />
             </div>
 
