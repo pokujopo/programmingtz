@@ -5,7 +5,7 @@ import Project_page from "../pages/Project_page";
 import { lazy, Suspense } from "react";
 const Home = lazy(() => import("../pages/Home"));
 const Layout = lazy(() => import("../layout/Layout"));
-const Project_page = lazy(() => import("../pages/Project_page"));
+const Project = lazy(() => import("../pages/Project_page"));
 const Post_project = lazy(() => import("../pages/Post_project"));
 
 const repoName = import.meta.env.VITE_REPO_NAME || "";
