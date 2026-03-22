@@ -21,7 +21,7 @@ min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
           <div className="w-full max-w-6xl mx-auto px-4">
         <div data-aos="fade-right" className=" h-[450px] p-3 flex flex-col gap-2  items-center lg:items-start justify-start w-auto lg:w-[600px]">
            <h1 className="text-2xl p-2 font-semibold text-center uppercase">My Contact:</h1>
-           <div className=" gap-5 p-5 flex flex-col h-[400px] w-[400px]">
+           <div className=" gap-5 p-5 flex flex-col h-[400px] w-auto">
              
              <p><FontAwesomeIcon icon={faMobilePhone} /> What'sap Number : +255786584974 </p>
              <p><FontAwesomeIcon icon={faEnvelope} /> Email: <a href="pokujopo@gamail.com">pokujopo@gamail.com</a></p>
@@ -48,17 +48,17 @@ min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
             </div>
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="name">Name:</label>
-                <input type="text" placeholder="Write Name" className="w-[400px] h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" />
+                <input type="text" placeholder="Write Name" className="w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" />
             </div>
 
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="email">Email:</label>
-                 <input placeholder="Write Email" className="w-[400px] h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" type="email" name="" id="" />
+                 <input placeholder="Write Email" className="w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" type="email" name="" id="" />
             </div>
 
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="Text">Text:</label>
-                <textarea placeholder="Write Your Text" type="text" className="w-[400px] h-[80px] px-4 py-2 mt-2 border-2 rounded-2xl border-emerald-900" />
+                <textarea placeholder="Write Your Text" type="text" className="w-auto h-[80px] px-4 py-2 mt-2 border-2 rounded-2xl border-emerald-900" />
             </div>
 
             <div className="">
