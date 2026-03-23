@@ -114,7 +114,7 @@ function Project(){
             sm:grid-cols-3 gap-6 lg:px-6 pt-3" >
 
                 {allProject}
-                 <div data-aos="fade-left" key={item.id} className="bg-[#ACC8A2] hover:scale-110 transition shadow-lg hover:shadow-2xl text-[#1A2510] rounded  hw flex flex-col gap-2">
+                 <div data-aos="fade-left"  className="bg-[#ACC8A2] hover:scale-110 transition shadow-lg hover:shadow-2xl text-[#1A2510] rounded  hw flex flex-col gap-2">
                 <div className="bg-[#ACC8A2]  rounded">
                      <img className='h-[200px] rounded w-full' src={game} alt="" />
                 </div>
