@@ -22,7 +22,7 @@ function Project(){
     
    useEffect(
          ()=>{
-            fetch("http://localhost:8000/api/get_project")
+            fetch("https://jboycreator56.ct.ws/api/get_project")
             .then(res => res.json())
             .then(data => {
                 console.log(data.all_project);
