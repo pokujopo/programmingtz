@@ -7,6 +7,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html","source": "/proxy-api/:path*",
+      "destination": "https://jboycreator56.ct.ws/api/:path*" }
   ]
 }
