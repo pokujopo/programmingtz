@@ -15,7 +15,7 @@ function Project_page(){
 
 
      const apiFecth = async(searchTerm="")=>{
-        const res = await fetch(`http://abbuherbalist.page.gd/search?query=h&i=2`);
+        const res = await fetch(`https://abbuherbalist.page.gd/search?query=h&i=2`);
         const data = await res.json();
         console.log(data.project);
         setData(data.project || []);
