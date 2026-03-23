@@ -124,7 +124,7 @@ function Project(){
                         </h1>
                 </div>
                 <div className='flex flex-row justify-center items-center '>
-                    <a  href="jboycreator56.ct.ws" className='mr-2 bg-green-700 w-[200px] text-[#ACC8A2] text-center p-2 rounded hover:bg-red-300' >View <FontAwesomeIcon icon={faEye} /></a>
+                    <a  href="https://jboycreator56.ct.ws" className='mr-2 bg-green-700 w-[200px] text-[#ACC8A2] text-center p-2 rounded hover:bg-red-300' >View <FontAwesomeIcon icon={faEye} /></a>
                     
                     <a   className='ml-2 bg-green-700 text-[#ACC8A2] 
                     p-2 rounded hover:bg-red-300'>
