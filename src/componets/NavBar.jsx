@@ -22,7 +22,7 @@ function NavBar(){
             <div className="w-full max-w-6xl  mx-auto px-4">
                 <div className="flex flex-row items-center justify-between ">
                 
-        <a href="" className=" bold text-[#5B0E14]  uppercase" >JboyCreator</a>
+        <a href="" className=" bold text-[#5B0E14]  uppercase" >ProgrammingTz</a>
         <div className= {menuText ?  `absolute  lg:static lg:min-h-fit bg-[#ACC8A2] 
         min-h-[60vh] left-0 top-[100%] w-full lg:w-auto p-5 items-center`: `hidden lg:flex`} >
 
