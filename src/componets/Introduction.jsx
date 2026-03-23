@@ -35,7 +35,7 @@ function Introduction(){
                  <h2 data-aos="fade-right"  className='text-3xl  text-[#ACC8A2]  write mt-[50px]'>
                     Welcome to MyProfolio </h2> 
                  <p data-aos="fade-up" className='text-3xl text-[#ACC8A2] mt-[20px]'>
-                    My name is JboyCreator, 
+                    My name is Elius John, 
                     I'm fullstuck developer, I build <strong>Website</strong>,<strong>Mobileapp</strong> and <strong>Systems </strong><br />   Click button below to see my project</p>
 
                 <a href='#section2' data-aos="fade-right"  className="bg-[#3a5732] w-auto lg:w-[200px] lg:ml-[500px] 
