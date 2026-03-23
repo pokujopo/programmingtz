@@ -85,9 +85,10 @@ function Project_page(){
 
         
     return(
-        <div className=" lg:bg-[#ACC8A2] min-h-screen flex flex-col text-[#ACC8A2]  bg-[#1A2515]  items-center 
-        w-full gap-0 ">
+        <div className="  min-h-screen  text-[#ACC8A2] 
+         bg-[#1A2515]  ">
              <div className="w-full max-w-6xl mx-auto px-4">
+                <div className="flex flex-col items-center gap-0">
             <div className="flex   items-center lg:w-2xl w-full mt-9 flex-col gap-7 rounded-3xl bg-[#1A2515]">
             <div className=" mt-3">
                 <h1 data-aos="fade-left" className="text-3xl p-2 font-semibold uppercase " > <FontAwesomeIcon icon={faProjectDiagram} />All Project</h1>
@@ -173,9 +174,10 @@ function Project_page(){
                 </small>
             ))}
             </div>
-           <p className="mr-3 ">&copy; {copyrightYear} Made By JboyCreator</p>
+           <p className="mr-3 ">&copy; {copyrightYear} Made By ProgrammingTz</p>
         </footer>
              </div>
+            </div>
             </div>
         
     )

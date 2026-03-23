@@ -4,8 +4,9 @@ import { faArrowLeft, faUpload, faWebAwesome, faLink, faImage, faLanguage  } fro
 function Post_project(){
     
     return(
-        <div className=" bg-[#1A2510] flex items-center justify-center w-auto lg:w-full min-h-screen">
+        <div className=" bg-[#1A2510] ">
          <div className="w-full max-w-6xl mx-auto px-4">
+            <div className="flex items-center justify-center w-auto lg:w-full min-h-screen">
             <div className="bg-[#1A2510] lg:rounded-3xl  lg:border-2 text-[#ACC8A2]  w-auto p-3 lg:p-7
             flex flex-col ">
 
@@ -19,20 +20,20 @@ function Post_project(){
 
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="text">SiteName <FontAwesomeIcon icon={faWebAwesome} />:</label>
-                    <input className=" border-2 rounded-2xl p-3 mt-2 " type="text" name="name" placeholder=" write site name" />
+                    <input className=" border-2 w-auto lg:w-[400px] h-[50px] rounded-2xl p-3 mt-2 " type="text" name="name" placeholder=" write site name" />
                 </div>
 
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="link">Link <FontAwesomeIcon icon={faLink} />:</label>
-                    <input className=" border-2 rounded-2xl p-3 mt-2 " type="link" name="link" placeholder=" paste/write site link" />
+                    <input className=" border-2 w-auto lg:w-[400px] h-[50px] rounded-2xl p-3 mt-2 " type="link" name="link" placeholder=" paste/write site link" />
                 </div>
                 <div className="flex  flex-col">
                      <label className=" font-semibold  " htmlFor="image">Image <FontAwesomeIcon icon={faImage} />:</label>
-                    <input className="  border-2 rounded-2xl p-3 mt-2 " type="file" name="image"  />
+                    <input className="  border-2 w-auto lg:w-[400px] h-[50px] rounded-2xl p-3 mt-2 " type="file" name="image"  />
                 </div>
                 <div className="flex  flex-col">
                     <label className=" font-semibold  " htmlFor="language">Language <FontAwesomeIcon icon={faLanguage} />:</label>
-                    <select className="border-2 rounded-2xl p-3 mt-2 " name="language" >
+                    <select className="border-2 w-auto lg:w-[400px] h-[50px] rounded-2xl p-3 mt-2 " name="language" >
                         <option  defaultValue="">reactjs</option>
                         <option value="">flutter</option>
                     </select>
@@ -45,6 +46,7 @@ function Post_project(){
                 </form>
                 </div>
          </div>
+            </div>
             </div>
     )
 }
