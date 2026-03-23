@@ -18,8 +18,9 @@ function NavBar(){
     
     return(
         <div className="text-[#5B0E14] text-1xl font-semibold bg-[#ACC8A2] flex 
-        justify-between items-center opacity-90 w-full  h-[80px] fixed z-10" >
-            <div className="w-full max-w-6xl mx-auto flex flex-row items-center justify-between px-4">
+        justify-between items-center opacity-90 w-full  h-[60px] fixed z-10" >
+            <div className="w-full max-w-6xl  mx-auto px-4">
+                <div className="flex flex-row items-center justify-between ">
                 
         <a href="" className=" bold text-[#5B0E14]  uppercase" >JboyCreator</a>
         <div className= {menuText ?  `absolute  lg:static lg:min-h-fit bg-[#ACC8A2] 
@@ -42,6 +43,7 @@ function NavBar(){
         
         <a className="mr-3 text-[#5B0E14] lg:hidden hover:bg-[#7ac067]  rounded-2xl " onClick={()=>setText(!menuText)} >{menuText ?  <FontAwesomeIcon icon={faX} /> :  <FontAwesomeIcon icon={faBars} />}</a>
         </div>
+            </div>
             </div>
             </div>
         

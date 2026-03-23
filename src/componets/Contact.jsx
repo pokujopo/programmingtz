@@ -16,9 +16,9 @@ function Contact(){
     },[])
 
 return(
-    <div id="section4" className="flex p-4 lg:flex-row flex-col-reverse justify-between items-center gap-4
-min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
-          <div className="w-full max-w-6xl mx-auto px-4">
+    <div id="section4" className="  min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
+          <div className="w-full max-w-6xl  mx-auto px-4">
+            <div className="flex lg:flex-row flex-col-reverse justify-between items-center gap-4">
         <div data-aos="fade-right" className=" h-auto p-3 flex flex-col gap-5 items-center lg:items-start justify-start w-auto lg:w-[600px]">
            <h1 className="text-2xl p-2 font-semibold text-center uppercase">My Contact:</h1>
            <div className=" gap-5 p-5 flex flex-col h-auto w-auto">
@@ -48,24 +48,25 @@ min-h-[40vh] bg-[#1A2517] text-[#ACC8A2]">
             </div>
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="name">Name:</label>
-                <input type="text" placeholder="Write Name" className="w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" />
+                <input type="text" placeholder="Write Name" className="lg:w-[400px] w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" />
             </div>
 
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="email">Email:</label>
-                 <input placeholder="Write Email" className="w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" type="email" name="" id="" />
+                 <input placeholder="Write Email" className="lg:w-[400px] w-auto h-[50px] px-4 mt-2 border-2 rounded-2xl border-emerald-900" type="email" name="" id="" />
             </div>
 
             <div className=" flex flex-col">
                 <label className="font-semibold" htmlFor="Text">Text:</label>
-                <textarea placeholder="Write Your Text" type="text" className="w-auto h-[80px] px-4 py-2 mt-2 border-2 rounded-2xl border-emerald-900" />
+                <textarea placeholder="Write Your Text" type="text" className="lg:w-[400px] w-auto h-[80px] px-4 py-2 mt-2 border-2 rounded-2xl border-emerald-900" />
             </div>
 
             <div className="">
-                <button type="submit" className="p-2 bg-[#206607] w-auto rounded-2xl hover:bg-[#293824] text-2xl">send</button>
+                <button type="submit" className="p-2 bg-[#206607] w-2xs rounded-2xl hover:bg-[#293824] text-2xl">send</button>
             </div>
 
         </div>
+          </div>
           </div>
     </div>
 )

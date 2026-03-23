@@ -35,7 +35,7 @@ function Footer(){
                 </small>
             ))}
             </div>
-           <p className="mr-3 ">&copy; {copyrightYear} Made By JboyCreator</p>
+           <p className="mr-3 ">&copy; {copyrightYear} Made By ProgrammingTz</p>
         </footer>
     )
 }

@@ -10,7 +10,9 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { faEye, faArrowRight, faHeart , faStar,} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { stringify } from 'postcss'
+import { stringify } from 'postcss';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -20,7 +22,7 @@ function Project(){
     
    useEffect(
          ()=>{
-            fetch("https://abbuherbalist.page.gd/search?query=a")
+            fetch("http://localhost:8000/api/get_project")
             .then(res => res.json())
             .then(data => {
                 console.log(data.all_project);
@@ -96,9 +98,11 @@ function Project(){
                 ))
 
     return(
-        <div id="section2" className="text-[#ACC8A2] w-full flex flex-col
-         lg:gap-5 gap-2
+        <div id="section2" className="text-[#ACC8A2] w-full 
          min-h-screen bg-[#1A2510] ">
+             <div className="w-full mx-auto px-4">
+            <div className='flex flex-col
+         lg:gap-5 gap-2 w-full'>
             <div className=" flex justify-center mt-3 items-center">
             <h1  data-aos="fade-right" className="font-semibold p-5 text-3xl ">
                <a href="/">MyProject:</a> 
@@ -115,9 +119,11 @@ function Project(){
             <div className="flex justify-center items-center  ">
                 <button data-aos="fade-left" className="bg-[#3a5732] shadow-lg w-[200px] text-[#ACC8A2] hover:text-[#243120] hover:bg-[#74bd5e]   text-2xl
                  mb-2 font-semibold rounded-lg hover:scale-110 hover:shadow-2xl transition px-3 py-3">
-                   <a href="/project">see more <FontAwesomeIcon icon={faArrowRight} /></a>   </button>
+                  <Link to="/project"  >see more <FontAwesomeIcon icon={faArrowRight} /></Link>   </button>
+                   
             </div>
-
+            </div>
+            </div>
             </div>
     )
 
