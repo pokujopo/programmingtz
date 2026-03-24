@@ -3,6 +3,7 @@ import post1 from '../assets/bg-profile.jpg'
 import post2 from '../assets/carousel-1.jpg'
 import post3 from '../assets/carousel-2.jpg'
 import game from '../assets/game.png'
+import movie from '../assets/movie.jpg'
 import post4 from '../assets/carousel-3.jpg'
 import post5 from '../assets/vr-bg.jpg'
 import post6 from '../assets/home-decor-2.jpg'
@@ -116,15 +117,15 @@ function Project(){
                 {allProject}
                  <div data-aos="fade-left"  className="bg-[#ACC8A2] hover:scale-110 transition shadow-lg hover:shadow-2xl text-[#1A2510] rounded  hw flex flex-col gap-2">
                 <div className="bg-[#ACC8A2]  rounded">
-                     <img className='h-[200px] rounded w-full' src={game} alt="" />
+                     <img className='h-[200px] rounded w-full' src={movie} alt="" />
                 </div>
                 <div className='flex justify-center items-center'>
                     <h1 className='font-semibold text-[20px] '>
-                        <span className='uppercase'><FontAwesomeIcon icon={faStar} />jboycreator56</span>
+                        <span className='uppercase'><FontAwesomeIcon icon={faStar} />mymovieweb</span>
                         </h1>
                 </div>
                 <div className='flex flex-row justify-center items-center '>
-                    <a  href="https://jboycreator56.ct.ws" className='mr-2 bg-green-700 w-[200px] text-[#ACC8A2] text-center p-2 rounded hover:bg-red-300' >View <FontAwesomeIcon icon={faEye} /></a>
+                    <a  href="https://mymovieapp-tau.vercel.app/" className='mr-2 bg-green-700 w-[200px] text-[#ACC8A2] text-center p-2 rounded hover:bg-red-300' >View <FontAwesomeIcon icon={faEye} /></a>
                     
                     <a   className='ml-2 bg-green-700 text-[#ACC8A2] 
                     p-2 rounded hover:bg-red-300'>
@@ -133,7 +134,7 @@ function Project(){
 
                 </div>
                 <div className='flex mr-2 flex-row items-center justify-between mt-0 px-3  gap-3'>
-                    <small className="font-semibold">laravel</small>
+                    <small className="font-semibold">reactjs</small>
                     <div className='gap-2 flex'>
                     <small>2k <FontAwesomeIcon icon={faHeart} /></small>
                     <small>2k<FontAwesomeIcon icon={faEye} /></small>
