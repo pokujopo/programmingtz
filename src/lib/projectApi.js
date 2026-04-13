@@ -1,4 +1,4 @@
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'http://adamherbalistapi-main-ihdtg6.free.laravel.cloud').replace(/\/$/, '');
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'https://adamherbalistapi-main-ihdtg6.free.laravel.cloud').replace(/\/$/, '');
 const MEDIA_BASE = (import.meta.env.VITE_MEDIA_BASE_URL || API_BASE).replace(/\/$/, '');
 
 export function getProjectImageUrl(image) {
